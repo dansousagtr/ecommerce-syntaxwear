@@ -1,1 +1,3 @@
-/* base.css — limpo por solicitação do usuário */
+body{
+    font-family: var(--fonte-principal);
+}
