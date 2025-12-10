@@ -4,18 +4,62 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SyntaxWear — E-commerce</title>
+
+    <title>SyntaxWear — tênis e sneakers online</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/components/header.css">
+
 </head>
 
 
 <body>
 
-    <h1>meu titulo</h1>
+    <header class="header">
+
+        <h1 class="logo">
+            <a href="/" title="SyntaxWear tenis e sneakers online">
+                <img src="./images/logo/logo.svg" alt="syntaxwear - tenis e sneakers online">
+            </a>
+        </h1>
+
+        <nav class="nav-center" aria-label="Categories Principais">
+            <ul>
+                <li><a href="#">Masculino</a></li>
+                <li> <a href="#">Feminino</a></li>
+                <li> <a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-after-center" aria-label="Menu secundário">
+            <ul>
+
+                <li><a href="#">nossas lojas</a></li>
+
+                <li><a href="#">Sobre</a></li>
+
+                <li> <a href="#" aria-label="minha conta">
+
+                        <img src="./images/icons/user.svg" alt="minha conta"></a></li>
+
+                <li><a href="#" aria-label>
+
+                        <img src="./images/icons/help.svg" alt="ajuda">
+
+                    </a></li>
+
+                <li> <a href="#" aria-label="Carrinho">
+
+                        <img src="./images/icons/bag.svg" alt="meu carrinho">
+
+                    </a></li>
+
+            </ul>
+
+        </nav>
+    </header>
 
     <!-- Estrutura semântica (micro) para layout e-commerce — sem IDs e sem <div> -->
 
