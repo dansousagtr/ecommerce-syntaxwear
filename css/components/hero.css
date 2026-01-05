@@ -1,13 +1,13 @@
-.hero-section{
+.hero-section {
     background: url(../../images/banners/hero.jpg)no-repeat center;
-
     background-size: cover;
-    height: 500px;
-    position: relative;
 
+    position: relative;
+    height: 500px;
+    border-radius: 20px;
 }
 
-.hero-overlay{
+.hero-overlay {
     width: 94%;
     height: 100%;
     display: flex;
@@ -16,19 +16,19 @@
     padding: 4.0rem;
 }
 
-.hero-content{
+.hero-content {
     color: #FFFFFFFF;
     max-width: 360px;
     text-align: center;
 }
 
-.hero-buttons{
+.hero-buttons {
     gap: 0px;
 }
 
 
 
-.hero-content .hero-title{
+.hero-content .hero-title {
     font-size: 1.87rem;
     margin-bottom: 40px;
     font-weight: 400;
@@ -37,9 +37,7 @@
     line-height: 36px;
 }
 
-.hero-content .hero-subtitle{
+.hero-content .hero-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
 }
-
-
