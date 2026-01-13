@@ -1,21 +1,22 @@
 body{
 		font-family: var(--fonte-principal);
+        color: #333333;
 }
 
 main{
-    padding: 2.5rem 0 0;
-    max-width: 1360px;
+    padding: 2.5rem 0 2.5rem;
+    max-width: 85rem;
     margin: 0 auto;
 }
 
 .btn{
     font-size: 1.25rem;
-    width: 161px;
-    height: 30px;
-    border-radius: 50px;
-    color: #FFFFFFFF;
+    width: 10.0625rem;
+    height: 3rem;
+    border-radius: 25px;
+    color: #FFFFFF;
     font-weight: 400;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     transition: background-color 0.3s, border 0.3s;
 }
 
@@ -26,7 +27,7 @@ main{
 }
 
 .btn-filled{
-    background-color: #FFFFFFFf;
+    background-color: #FFFFFf;
     color:#6329A2;
 }
 
@@ -34,5 +35,11 @@ main{
     background-color: #6329A2;
     color: #FFFFFFFf;
     border-color: #6329A2;
+}
+
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1.25rem 0;
 }
 

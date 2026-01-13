@@ -8,12 +8,12 @@
 }
 
 .hero-overlay {
-    width: 94%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 4.0rem;
+    padding: 0.6rem;
 }
 
 .hero-content {
@@ -23,7 +23,8 @@
 }
 
 .hero-buttons {
-    gap: 0px;
+    display: flex;
+    gap: 16px;
 }
 
 
@@ -32,9 +33,8 @@
     font-size: 1.87rem;
     margin-bottom: 40px;
     font-weight: 400;
-
-    letter-spacing: 3px;
     line-height: 36px;
+    letter-spacing: 3px;
 }
 
 .hero-content .hero-subtitle {
