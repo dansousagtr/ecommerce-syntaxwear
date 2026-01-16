@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
     <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/components/newsletter.css">
+    <link rel="stylesheet" href="./css/variables.css">
 
 </head>
 
@@ -31,68 +33,55 @@
             </a>
         </h1>
 
-        <nav class="nav-center" aria-label="Categories Principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li> <a href="#">Feminino</a></li>
-                <li> <a href="#">Outlet</a></li>
-            </ul>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./images/icons/hamburguer.svg" alt="menu mobile" srcset="">
+        </label>
+
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right" aria-label="Acesso rápido">
+                <ul>
+                    <li><a href="#">nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#" aria-label="minha conta">
+                            <img src="./images/icons/user.svg" alt="minha conta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Ajuda">
+                            <img src="./images/icons/help.svg" alt="ajuda">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Carrinho">
+                            <img src="./images/icons/bag.svg" alt="meu carrinho">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
-
-        <nav class="nav-right" aria-label="Menu secundário">
-            <ul>
-
-                <li><a href="#">nossas lojas</a></li>
-
-                <li><a href="#">Sobre</a></li>
-
-                <li> <a href="#" aria-label="minha conta">
-
-                        <img src="./images/icons/user.svg" alt="minha conta"></a></li>
-
-                <li><a href="#" aria-label>
-
-                        <img src="./images/icons/help.svg" alt="ajuda">
-
-                    </a></li>
-
-                <li> <a href="#" aria-label="Carrinho">
-
-                        <img src="./images/icons/bag.svg" alt="meu carrinho">
-
-                    </a></li>
-
-            </ul>
-
-        </nav>
-    </header>
-
-    <!-- Estrutura semântica (micro) para layout e-commerce — sem IDs e sem <div> -->
-
-    <header class="site-header">
-        <!-- logo/brand placeholder -->
     </header>
 
     <main>
         <!-- Hero section (micro estrutura) -->
         <section class="hero-section">
             <!--seçao hero-->
-
             <div class="hero-overlay">
                 <div class="hero-content">
-
                     <span class="hero-subtitle">Krypton One</span>
-
                     <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-
                     <div class="hero-buttons">
-
                         <a href="#" class="btn btn-outline">ver modelos</a>
-
                         <a href="#" class="btn btn-filled">comprar</a>
-
-
-
                     </div>
                 </div>
             </div>
@@ -100,38 +89,29 @@
 
         <section class="categories-section">
             <!--seçao de categorias de tenis-->
-
             <div class="category-card casual">
                 <a href="#" class="category-link">
                     <span class="overlay"></span>
                     <span class="category-name btn btn-outline">Casual</span>
                 </a>
-
             </div>
-
             <div class="category-card esporte">
                 <a href="#" class="category-link">
                     <span class="overlay"></span>
                     <span class="category-name btn btn-outline">Esporte</span>
                 </a>
-
             </div>
-
             <div class="category-card moderno">
                 <a href="#" class="category-link ">
                     <span class="overlay"></span>
                     <span class="category-name btn btn-outline">Moderno</span>
                 </a>
-
             </div>
-
             <div class="category-card futurista">
                 <a href="#" class="category-link ">
                     <span class="overlay"></span>
                     <span class="category-name btn btn-outline">Futurista</span>
                 </a>
-
-            </div>
             </div>
         </section>
 
@@ -155,80 +135,77 @@
         </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
         <div class="footer-content">
             <div class="footer-right">
                 <form>
                     <label for="newsletter-form">Inscreva-se em nosso e-mail</label>
                     <input type="email" id="newsletter-email" placeholder="email@email.com" />
                 </form>
+                <div class="footer-social">
+                    <span>Redes sociais</span>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/icons/instagram.svg" alt="Instagram" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/icons/whatsapp.svg" alt="WhatsApp" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/icons/tiktok.svg" alt="TikTok" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/icons/facebook.svg" alt="Facebook" /></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-social">
-                <span>Redes sociais</span>
+            <nav class="footer-nav" id="footer">
                 <ul>
-							<li>
-								<a href="#"><img src="./images/icons/instagram.svg" alt="Instagram" /></a>
-							</li>
-							<li>
-								<a href="#"><img src="./images/icons/whatsapp.svg" alt="WhatsApp" /></a>
-							</li>
-							<li>
-								<a href="#"><img src="./images/icons/tiktok.svg" alt="TikTok" /></a>
-							</li>
-							<li>
-								<a href="#"><img src="./images/icons/facebook.svg" alt="Facebook" /></a>
-							</li>
-						</ul>
-            </div>
+                    <li>
+                        <strong>Masculino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Feminino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Outlet</strong>
+                        <ul>
+                            <li><a href="#">Masculino</a></li>
+                            <li><a href="#">Feminino</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Nossas lojas</strong>
+                        <ul>
+                            <li><a href="#">Loja física</a></li>
+                            <li><a href="#">Loja online</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Sobre</strong>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </li>
+            </nav>
         </div>
-        <nav class="footer-nav">
-            <ul>
-                <li class="footer-item">
-                    <strong>Masculino</strong>
-                    <ul>
-                        <li><a href="#">Casual</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Moderno</a></li>
-                        <li><a href="#">Futurista</a></li>
-                    </ul>
-                </li>
-                <li class="footer-item">
-                    <strong>Feminino</strong>
-                    <ul>
-                        <li><a href="#">Casual</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Moderno</a></li>
-                        <li><a href="#">Futurista</a></li>
-                    </ul>
-                </li>
-                <li class="footer-item">
-                    <strong>Outlet</strong>
-                    <ul>
-                        <li><a href="#">Masculino</a></li>
-                        <li><a href="#">Feminino</a></li>
-                    </ul>
-                </li>
-                <li class="footer-item">
-                    <strong>Nossas lojas</strong>
-                    <ul>
-                        <li><a href="#">Loja física</a></li>
-                        <li><a href="#">Loja online</a></li>
-                    </ul>
-                </li>
-                <li class="footer-item">
-                    <strong>Sobre</strong>
-                    <ul>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Missão</a></li>
-                    </ul>
-                </li>
-        </nav>
-        <hr>
-        <div class="footer-copy">
-            <span>Copyright. All Rights Reserved</span>
-        </div>
+            <hr />
+            <div class="footer-copy">Copyright. All Rights Reserved</div>
     </footer>
-
 </body>
 
 </html>

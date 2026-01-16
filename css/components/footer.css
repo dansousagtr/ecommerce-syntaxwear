@@ -18,9 +18,14 @@
     gap: 3.125rem;
 }
 
+.footer-nav{
+    padding: 0px 2.5rem;
+}
+
 .footer-nav ul{
     display: flex;
     gap: 1.25rem;
+    text-align: center;
 
 }
 
@@ -32,7 +37,7 @@
 
 .footer-nav strong{
     color: #EDEDED;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     margin-bottom: 20px;
     display: block;
     font-weight: 400;
